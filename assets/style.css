@@ -1,0 +1,21 @@
+body {
+    background-color:  black;
+    color: white;
+    text-align: center;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+
+}
+#one {
+    height: 500px;
+    width: 500px;
+    
+  display: inline-block;
+  }
+ #two {
+    height: 500px;
+    width: 500px;
+    
+      display: inline-block;
+ }
