@@ -28,7 +28,7 @@ body {
   z-index: -2;
 }
 */
-.clouds {
+/*.clouds {
   background:transparent url(assets/clouds.png) top center;
   position:absolute;
   top:0;
@@ -45,7 +45,7 @@ body {
   -webkit-animation:move-clouds-back 800s linear infinite;
   animation:move-clouds-back 800s linear infinite;
   z-index: 100;
-}
+}*/
 
 #container {
   margin: auto;
@@ -57,7 +57,7 @@ body {
 
 .text {
   text-align: center;
-  color: white;
+  color: yellow;
   font-family: 'Helvetica Mono';
   font-size: 50px;
 }
@@ -146,11 +146,11 @@ h2 {
     <div class="clouds"></div>
     <div class="background"></div>
     <div class="top">
-<H2>Roll the dice to detirmine your geography</H2>
+<H2>Roll the dice to detirmine your luck</H2>
    <div> <div id = "one"><img src='assets/1.png'></div>
     <div id = "two"><img src='assets/2.png'></div></div><br>
-<button onclick="roll()">I Feel Lucky</button>
-<button class="button2" onclick="next()">Enter</button>
+<button onclick="roll()">Roll!</button>
+<!-- <button class="button2" onclick="next()">Enter</button> -->
 <br><br>
 
 <div id="DiceResult"></div>
@@ -183,7 +183,7 @@ var nrOne = Math.floor(Math.random() * dicePics1.length);
   
   var i = 0;
   var total = [
-  'You got: the Gated Community',
+  'Sorry. You are out of luck. This project might be continued next year.',
   'test2',
   'test3',
   ];
